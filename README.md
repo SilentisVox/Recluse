@@ -24,26 +24,11 @@ To set up and run this project, follow these steps:
 Run the script using Python from the command line:
 
 ```bash
-git clone https://github.com/SilentisVox/Vanguard
-cd Vanguard
-python vanguard.py
+git clone https://github.com/SilentisVox/Recluse
+cd Recluse
+python Recluse.py
 ```
-
-Once the script is running, it will start both the backdoor and HTTP servers as configured. You can interact with the system using the command-line interface provided by the script. Here are some commands you can use:
 
 ![image](https://github.com/user-attachments/assets/5a07b56d-cc88-4ce4-a320-86f79c0a0454)
 
-- `help`: Displays available commands and options.
-- `set [option]`: Change options, such as server addresses or script names.
-- `start [server]`: Starts the specified server (http or backdoor).
-- `kill [server]`: Stops the specified server.
-- `generate [bin|script|shell]`: Generates a binary for injection, custom reverse shell powershell script, or hollowed reverse shell from scvhost.exe
-- `sessions`: Displays all active backdoor sessions.
-- `exit`: Exits the application.
-
 ### Features
-
-- **Dynamic Command Execution**: Ability to dynamically execute commands based on user input.
-- **Session Management**: Manage and interact with multiple backdoor sessions.
-- **Customizable Settings**: Easily configure server settings and payloads through the command interface.
-- **Secure Communication**: Implementations can be extended to include encrypted communications.
