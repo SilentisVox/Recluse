@@ -1,41 +1,3 @@
-# Relcuse
-
-
-
-## Prerequisites
-
-Before you can run this project, you will need the following:
-- Python 3.x installed on your machine
-- Access to command-line or terminal
-- Required Python libraries: `socket`, `threading`, `os`, `random`, `re`, `string`
-
-## Setup
-
-To set up and run this project, follow these steps:
-
-1. Ensure all required Python modules are installed. Most of them are built-in except for a few which might require installation via pip.
-2. Clone the repository or download the source code to your local machine.
-3. Navigate to the directory containing the script.
-
-## Usage
-
-Run the script using Python from the command line:
-
-```bash
-git clone https://github.com/SilentisVox/Recluse
-cd Recluse
-python Recluse.py
-```
-
-![image](https://github.com/user-attachments/assets/5a07b56d-cc88-4ce4-a320-86f79c0a0454)
-
-### Features
-
-
-
----
-
-
 # Recluse
 
 ![recluse](https://github.com/user-attachments/assets/d6ce3003-84f1-4554-a2bc-639edbafb0e2)
@@ -68,6 +30,8 @@ Follow these steps to install and set up Recluse:
    ```
 
 ## Usage
+
+![image](https://github.com/user-attachments/assets/5a07b56d-cc88-4ce4-a320-86f79c0a0454)
 
 Once Recluse is running, you can interact with it using the following commands:
 
@@ -103,15 +67,4 @@ generate
 - **Listener Management**: Supports persistent and dynamic listeners.
 - **Session Handling**: Allows joining and controlling remote sessions.
 
----
-
-### Disclaimer
-
-Recluse is intended for **educational and authorized** penetration testing purposes only. Unauthorized use is illegal and punishable by law.
-
----
-
-### Author
-
-Developed by **Silentis Vox** while at **Mandiant**. More details at: [http://www.silentisvox.com](http://www.silentisvox.com)
 
