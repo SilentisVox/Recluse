@@ -1,6 +1,6 @@
 # Relcuse
 
-![recluse](https://github.com/user-attachments/assets/d6ce3003-84f1-4554-a2bc-639edbafb0e2)
+
 
 ## Prerequisites
 
@@ -38,6 +38,8 @@ python Recluse.py
 
 # Recluse
 
+![recluse](https://github.com/user-attachments/assets/d6ce3003-84f1-4554-a2bc-639edbafb0e2)
+
 Recluse is a lightweight Command and Control (C2) framework designed for remote administration and penetration testing. It provides robust payload generation, obfuscation, and communication capabilities.
 
 ## Prerequisites
@@ -59,17 +61,9 @@ Before setting up Recluse, ensure you have the following dependencies installed:
 
 Follow these steps to install and set up Recluse:
 
-1. **Clone the repository**
    ```bash
    git clone https://github.com/yourusername/recluse.git
    cd recluse
-   ```
-2. **Install dependencies**
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. **Run the main script**
-   ```bash
    python Recluse.py
    ```
 
@@ -114,12 +108,6 @@ generate
 ### Disclaimer
 
 Recluse is intended for **educational and authorized** penetration testing purposes only. Unauthorized use is illegal and punishable by law.
-
----
-
-### License
-
-This project is not licensed under any open-source agreement and follows the **Non-Apache License Version 1.0**.
 
 ---
 
