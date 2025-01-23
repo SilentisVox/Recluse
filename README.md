@@ -2,14 +2,12 @@
 
 ![recluse](https://github.com/user-attachments/assets/d6ce3003-84f1-4554-a2bc-639edbafb0e2)
 
-This project includes a robust backdoor and HTTP server setup, providing a detailed and customizable environment for network interactions and security testing. The core functionalities allow for command execution, session handling, and dynamic response generation for testing purposes.
-
 ## Prerequisites
 
 Before you can run this project, you will need the following:
 - Python 3.x installed on your machine
 - Access to command-line or terminal
-- Required Python libraries: `socket`, `threading`, `os`, `subprocess`, `random`, `re`, `string`
+- Required Python libraries: `socket`, `threading`, `os`, `random`, `re`, `string`
 
 ## Setup
 
