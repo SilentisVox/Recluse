@@ -24,7 +24,7 @@ Before setting up Recluse, ensure you have the following dependencies installed:
 Follow these steps to install and set up Recluse:
 
    ```bash
-   git clone https://github.com/yourusername/recluse.git
+   git clone https://github.com/SilentisVox/Recluse
    cd recluse
    python Recluse.py
    ```
