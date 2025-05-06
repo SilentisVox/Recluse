@@ -42,18 +42,18 @@ class CommandHandler:
         if not self.verify_port(network_listener_port):
             return
 
-        calback_ip                      = input("> Callback IP: ")
+        callback_ip                     = input("> Callback IP: ")
 
-        if not self.verify_ip(calback_ip):
+        if not self.verify_ip(callback_ip):
             return
 
-        calback_port                    = input("> Callback Port: ")
+        callback_port                   = input("> Callback Port: ")
 
-        if not self.verify_port(calback_port):
+        if not self.verify_port(callback_port):
             return
 
         self.settings.network_listener_address = ("0.0.0.0", int(network_listener_port))
-        self.settings.callback_address  = (calback_ip, int(calback_port))
+        self.settings.callback_address  = (callback_ip, int(callback_port))
 
         payload_type                    = input("> Payload Type (script, shell, exe): ")
         payload_name                    = input("> Payload Name: ")
